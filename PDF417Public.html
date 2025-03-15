@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Header Section -->
+<!--
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+-->
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>PDF417 Barcode Generator</h1>
+        <p>Test website.</p>
+        <!--
+        <button>Learn More</button>
+        -->
+    </section>
+
+    
+    <!-- Featured Section -->
+    <section class="featured">
+        <h2>Featured Projects</h2>
+        
+        <!-- Form to enter custom data -->
+        <form id="barcode-form">
+            <label for="data">Enter your custom data:</label>
+            <input type="text" id="data" name="data" placeholder="e.g. This is a PDF417 by TEC-IT">
+            <button type="submit">Generate Barcode</button>
+        </form>
+        
+        <!-- Container to display the barcode -->
+        <div style='text-align: center;' id="barcode-container">
+            <!-- insert your custom barcode setting your data in the GET parameter "data" -->
+            <img alt='Barcode Generator TEC-IT'
+                src='https://barcode.tec-it.com/barcode.ashx?data=This+is+a+PDF417+by+TEC-IT&code=PDF417' id="barcode
+                style="
+                max-width: 50%;
+                height: auto;
+                margin: 0 auto;
+                ">
+    
+        </div>
+        
+        <!-- Display message when form is submitted -->
+        <p id="message"></p>
+    </section>
+        <!--
+            <li>
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>This is a project about project 1.</p>
+            </li>
+            <li>
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>This is a project about project 2.</p>
+            </li>
+        </ul>
+    </section>
+    -->
+    
+    <!-- Call-to-Action Section -->
+<!--
+    
+    <section class="call-to-action">
+        <h2>Get in Touch!</h2>
+        <form>
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <button>Send Message</button>
+        </form>
+-->		
+        
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2023 Simple Website</p>
+        <ul>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+
+</body>
+</html>
+

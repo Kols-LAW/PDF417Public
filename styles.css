@@ -1,0 +1,159 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+/* Header Styles */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header nav li {
+    margin-right: 20px;
+}
+
+.header nav a {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+.header nav a:hover {
+    color: #ccc;
+}
+
+/* Hero Styles */
+
+.hero {
+    background-image: linear-gradient(to bottom, #f9f9f9, #e6e6e6);
+    padding: 100px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Featured Styles */
+
+.featured {
+    background-color: #fff;
+    padding: 50px;
+    margin: 0 auto;
+    width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.featured ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featured li {
+    margin: 20px;
+}
+
+.featured img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Call-to-Action Styles */
+
+.call-to-action {
+    background-color: #333;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.call-to-action form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action input[type="text"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action button {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    margin-right: 20px;
+}
+
+.footer a {
+    color: #fff;
+}
